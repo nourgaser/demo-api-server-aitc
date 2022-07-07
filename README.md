@@ -18,7 +18,10 @@ echo "MONGODB_USER_URL=<your_mongodb_connection_string>" >> .env
 echo "SESSION_SECRET=<your_secret_key>" >> .env
 npm start
 ```
+Or, [test using the demo hosted on Heroku](https://demo-api-server-aitc.herokuapp.com/api/product) (might take a moment for Heroku to spin up the dyno)
+
 You can test the API endpoints using your favorite HTTP client (browser, vscode extention, postman, whatever).
+
 
 ---
 
