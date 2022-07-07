@@ -7,14 +7,14 @@ const passport = require("passport");
 const cors = require("cors");
 const app = express();
 
-app.use(express.static("public"));
+
 
 //Request body parsing
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-//CORS
-// app.use(cors({origin: 'http://bellgomla.com'}));
+
+
 app.use(cors());
 
 //Mongoose && session store
